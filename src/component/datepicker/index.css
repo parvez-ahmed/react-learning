@@ -1,0 +1,33 @@
+.DatePicker{
+    position: absolute;
+    top: 35px;
+    left: 20%;
+    /* padding: 10px; */
+    border: 1px solid lightgray;
+    /* border-radius: 10px; */
+    /* width: 600px; */
+    background-color: white;
+}
+
+.NumberOfGuests{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PeopleSearchInput{
+    display: flex;
+    /* align-items: center; */
+}
+
+.PeopleSearchInput > button{
+    flex: 1;
+    background-color: #ff7779 !important;
+    color: white !important;
+    text-transform: inherit;
+}
+.PeopleSearchInput > input{
+    flex: 1;
+    outline: none;
+    border: none;
+}
