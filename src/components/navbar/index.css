@@ -1,0 +1,22 @@
+.Navbar{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 100;
+    color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .3s;
+}
+
+.NavbarLogo{
+    height: 40px;
+    object-fit: contain;
+}
+
+.NavbarBlack{
+    background-color: #111;
+}

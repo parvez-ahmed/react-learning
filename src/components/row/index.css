@@ -1,0 +1,31 @@
+.Row{
+    margin-left: 20px;
+    color: white;
+}
+
+.RowPoster{
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.RowPoster:hover{
+    transform: scale(1.08);
+}
+
+.RowPosters{
+    display: flex;
+    padding: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.RowPosters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .RowPosterLarge{
+      max-height: 250px;
+  }
