@@ -1,0 +1,20 @@
+.BannerContainer{
+    background: linear-gradient(135.46deg,#d11450,#df293a);
+    width: 100%;
+    padding: 10px 0 32px;
+    margin-bottom: 18px; 
+
+}
+
+.BannerContentContainer{
+    width: 82vw;
+    margin: auto;
+}
+.BannerContentContainer h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin: 16px 0;
+    text-align: center;
+}
