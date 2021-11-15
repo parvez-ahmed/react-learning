@@ -1,0 +1,74 @@
+.HeaderContainer{
+    padding: 0px 15px;
+    background-color: whitesmoke;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+}
+
+.HeaderLogo{
+    color: red;
+    display: flex;
+    align-items: center;
+}
+.HeaderLogoImg{
+    width: 24px;
+    object-fit: contain;
+}
+
+.HeaderLogoText{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.LinkContainer{
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.HeaderLinksContainer{
+    display: flex;
+    height: 100%;
+}
+.HeaderLinksContainer div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.HeaderLinksContainer div:hover{
+    background-color: grey;
+}
+
+.HeaderRight{
+    display: flex;
+    align-items: center;
+}
+.mr20{
+    margin-right: 20px;
+}
+.HeaderLogoMobile{
+    display: none;
+}
+@media screen and (max-width: 1000px) {
+    .HeaderLinksContainer{
+        display: none;
+    }
+    .HeaderLogoDesktop{
+        display: none;
+    }
+    .HeaderLogoMobile{
+        display: block;
+        color: black;
+        cursor: pointer;
+    }
+  }
