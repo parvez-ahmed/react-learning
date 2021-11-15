@@ -1,0 +1,10 @@
+.Footer{
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+}
+.FooterContent{
+    padding: 10px;
+    max-width: 300px;
+    flex: 1;
+}

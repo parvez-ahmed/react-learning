@@ -1,0 +1,157 @@
+.AuthContainer{
+    max-width: 935px;
+    margin: 0px auto 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+}
+
+.AuthContainerChild{
+    flex: 1;
+}
+
+.BGImageContainer{
+    background-image: url(/src/assets/signinBG.png);
+    height: 618px;
+    object-fit: contain
+}
+
+.FGImageContainer{
+    margin: 99px 0 0 151px;
+    position: relative;
+    width: 240px;
+    height: 427px;
+    /* animation: slide 20s infinite alternate; */
+}
+
+@keyframes slide{
+    0%{
+        background-image: url(/src/assets/signin1.jpg);
+    }
+    25%{
+        background-image: url(/src/assets/signin2.jpg);
+    }
+    50%{
+        background-image: url(/src/assets/signin3.jpg);
+    }
+    75%{
+        background-image: url(/src/assets/signin4.jpg);
+    }
+    100%{
+        background-image: url(/src/assets/signin5.jpg);
+    }
+}
+
+.AuthContentContainer{
+    max-width: 350px;
+    padding-top: 30px;
+    flex-grow: 1;
+}
+
+.AuthContent{
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color: rgba(var(--d87,255,255,255),1);
+    border-radius: 1px;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+}
+
+.AuthContentHeading{
+    margin: 22px auto 12px;
+    height: 51px;
+    width: 175px;
+}
+
+.AuthContentSubHeading{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 40px 10px;
+    text-align: center;
+}
+
+.LoginWithFacebook{
+    margin: 8px 40px;
+}
+
+.LoginWithFacebookButton{
+    width: 100%;
+    padding: 8px 12px;
+    background-color: rgba(var(--d69,0,149,246),1);
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 600;
+}
+
+.LoginWithFacebookButtonIcon{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.separator{
+    padding: 10px 40px 18px;
+    display: flex;
+    align-items: center;
+}
+
+.FormContainer{
+    padding: 0 40px 6px;
+}
+
+.AuthContentBottomText{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px 45px;
+    text-align: center;
+}
+
+.LinkDiv{
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    text-align: center;
+    padding:20px 0px
+}
+
+.SignUpContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.ImgaeSlide{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.CustomFade{
+    animation: CustomFade;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* .fadeOut{
+    animation: fadeOut;
+    animation-duration: 1s;
+} */
+
+@keyframes CustomFade{
+    from {opacity: 0.2;}
+    to{opacity: 1;}
+}
+
+/* @keyframes fadeOut{
+    from {opacity: 1;}
+    to{opacity: 0;}
+} */
+
+
+@media screen and (max-width: 900px) {
+    .BGImageContainer{
+        display: none;
+    }
+    .AuthContentContainer{
+        margin: auto;
+    }
+  }

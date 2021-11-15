@@ -1,0 +1,35 @@
+.PostContainer{
+    max-width: 550px;
+    width: 100%;
+    padding: 10px;
+}
+
+.Post{
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-bottom: 40px;
+    /* margin: 20px; */
+    object-fit: contain;
+    width: 100%;
+}
+
+.PostImage{
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.PostHeader{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.PostHeaderAvatar{
+    margin-right: 20px;
+}
+
+.PostText{
+    font-weight: normal;
+    padding: 10px;
+}
